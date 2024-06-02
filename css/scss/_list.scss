@@ -1,0 +1,369 @@
+.list {
+    &__contact {
+        padding: 145px 0;
+
+        @media(max-width: 991px) {
+            padding: 95px 0;
+        }
+
+        .box-contact-wrap {
+            .contact-title {
+                margin-bottom: 50px;
+
+                @media(max-width: 991px) {
+                    margin-bottom: 16px;
+                }
+
+                .title {
+                    font-family: BT Beau Sans;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 60px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    color: #FFFFFF;
+                    margin-bottom: 10px;
+
+                    @media(max-width: 991px) {
+                        font-size: 24px;
+                        line-height: 36px;
+                        margin-bottom: 10px;
+                    }
+                }
+
+                .des {
+                    font-family: BT Beau Sans;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 27px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    display: block;
+                    color: #FFFFFF;
+
+                    @media(max-width: 991px) {
+                        font-size: 14px;
+                        line-height: 21px;
+                    }
+                }
+            }
+
+            .frame-contact {
+                display: flex;
+                gap: 50px;
+                background: #323232;
+                border-radius: 10px;
+                padding: 10px;
+
+                @media(max-width: 991px) {
+                    flex-direction: column;
+                    gap: 25px;
+                    padding: 5px;
+                }
+
+                .left {
+                    width: 40%;
+                    background: #000000;
+                    border-radius: 10px;
+                    position: relative;
+                    padding: 40px 40px 250px 40px;
+                    overflow: hidden;
+
+                    @media(max-width: 1199px) {
+                        width: 48%;
+                    }
+
+                    @media(max-width: 991px) {
+                        width: 100%;
+                        padding: 15px 15px 113px 15px;
+                        ;
+                        text-align: center;
+                    }
+
+                    &:after {
+                        content: '';
+                        background: #48484880;
+                        position: absolute;
+                        width: 269px;
+                        height: 269px;
+                        border-radius: 100%;
+                        display: flex;
+                        right: -105px;
+                        bottom: -100px;
+
+                        @media(max-width: 991px) {
+                            width: 192px;
+                            height: 192px;
+                        }
+                    }
+
+                    &:before {
+                        content: '';
+                        background: #48484880;
+                        position: absolute;
+                        width: 138px;
+                        height: 138px;
+                        border-radius: 100%;
+                        right: 50px;
+                        bottom: 55px;
+
+                        @media(max-width: 991px) {
+                            width: 55px;
+                            height: 55px;
+                            right: 30px;
+                            bottom: 40px;
+                        }
+                    }
+
+                    .text-lf {
+                        display: block;
+                        font-family: BT Beau Sans;
+                        font-size: 28px;
+                        font-weight: 600;
+                        line-height: 42px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: #FFFFFF;
+                        padding-bottom: 114px;
+
+                        @media(max-width: 991px) {
+                            font-size: 20px;
+                            line-height: 30px;
+                            text-align: center;
+                            padding-bottom: 35px;
+                        }
+
+                    }
+
+                    .list {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 50px;
+
+                        @media(max-width: 991px) {
+                            justify-content: center;
+                            align-items: center;
+                            gap: 15px;
+                        }
+
+                        .item-link {
+                            display: flex;
+                            align-items: center;
+                            gap: 25px;
+                            font-family: BT Beau Sans;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            color: #FFFFFF;
+
+                            @media(max-width: 991px) {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                gap: 10px;
+                                font-size: 12px;
+                                line-height: 18px;
+                            }
+
+                            .icon {
+                                display: flex;
+                            }
+                        }
+                    }
+                }
+
+                .right {
+                    width: 60%;
+                    padding-top: 50px;
+                    padding-right: 40px;
+
+                    @media(max-width: 1199px) {
+                        width: 52%;
+                    }
+
+                    @media(max-width: 991px) {
+                        padding-top: 0;
+                        width: 100%;
+                        padding-right: 25px;
+                        padding-left: 11px;
+                    }
+
+                    .row {
+                        display: flex;
+                        gap: 39px;
+
+                        &.mb-45 {
+                            @media(max-width: 767px) {
+                                margin-bottom: 20px;
+                            }
+                        }
+
+                        @media(max-width: 767px) {
+                            flex-direction: column;
+                            gap: 20px;
+                        }
+
+                        .col {
+                            width: 50%;
+
+                            @media(max-width: 767px) {
+                                width: 100%;
+                            }
+
+                            .name {
+                                display: block;
+                                font-family: BT Beau Sans;
+                                font-size: 12px;
+                                font-weight: 500;
+                                line-height: 20px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                                margin-bottom: 4px;
+                                color: #FFFFFF;
+                            }
+
+                            .ip {
+                                width: 100%;
+                                font-family: BT Beau Sans;
+                                font-size: 14px;
+                                font-weight: 500;
+                                line-height: 20px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                                color: #FFFFFF;
+                                background: #323232;
+                                outline: none;
+                                border: none;
+                                padding-bottom: 11px;
+                                border-bottom: 1px solid #FFFFFF;
+                            }
+                        }
+                    }
+
+                    .row-down {
+                        margin-top: 32px;
+
+                        .col {
+                            width: 100%;
+
+                            .name {
+                                display: block;
+                                font-family: BT Beau Sans;
+                                font-size: 12px;
+                                font-weight: 500;
+                                line-height: 20px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                                margin-bottom: 4px;
+                                color: #FFFFFF;
+                            }
+
+                            .ip-col-tearea {
+                                width: 100%;
+                                display: flex;
+                                font-family: BT Beau Sans;
+                                font-size: 14px;
+                                font-weight: 500;
+                                line-height: 20px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                                background: #323232;
+                                outline: none;
+                                border: none;
+                                border-bottom: 1px solid #FFFFFF;
+                                resize: none;
+                                height: 140px;
+
+                                &::placeholder {
+                                    color: #FFFFFF;
+                                }
+
+                                &:focus {
+                                    color: #FFFFFF;
+                                    
+                                }
+                            }
+                        }
+                    }
+
+                    .box-btn {
+                        display: flex;
+                        justify-content: end;
+                        width: 100%;
+                    }
+
+                    .btn {
+                        cursor: pointer;
+                        background: #FE6C0B;
+                        display: flex;
+                        outline: none;
+                        border: none;
+                        box-shadow: 0px 0px 14px 0px #0000001F;
+                        border-radius: 5px;
+                        margin-top: 45px;
+                        font-family: BT Beau Sans;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        text-align: center;
+                        padding: 15px 48px;
+                        color: #FFFFFF;
+
+                        @media(max-width: 991px) {
+                            margin-top: 35px;
+                            padding: 9px 0;
+                            font-size: 12px;
+                            line-height: 19px;
+                            width: 100%;
+                            justify-content: center;
+                        }
+                    }
+
+                    .icon-arow {
+                        display: flex;
+                        width: 241px;
+                        margin-bottom: -45px;
+                        margin-left: 375px;
+                        margin-top: -25px;
+
+                        @media(max-width: 1309px) {
+                            display: flex;
+                            width: 240px;
+                            margin-bottom: -45px;
+                            margin-left: 230px;
+                            margin-top: -25px;
+                        }
+
+                        @media(max-width: 1199px) {
+                            display: flex;
+                            width: 210px;
+                            margin-bottom: -45px;
+                            margin-left: 90px;
+                            margin-top: -25px;
+                        }
+
+                        @media(max-width: 991px) {
+                            display: flex;
+                            width: 200px;
+                            margin-bottom: -33px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-top: -20px;
+                        }
+
+                        @media(max-width: 767px) {
+                            width: 105px;
+                            margin-bottom: -18px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-top: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
